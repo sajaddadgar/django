@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3dd7539-a178-4bc1-850f-3caa662367ef" name="Default Changelist" comment="First Commit 1:54">
+    <list default="true" id="d3dd7539-a178-4bc1-850f-3caa662367ef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/mysite/polls/templates/polls/result.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/templates/polls/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/polls/templates/polls/detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/polls/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/polls/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mysite/polls/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+            <state relative-caret-position="255">
+              <caret line="15" column="50" lean-forward="true" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -29,29 +30,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysite/polls/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="66" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
+            <state relative-caret-position="442">
+              <caret line="50" column="51" selection-start-line="50" selection-start-column="51" selection-end-line="50" selection-end-column="51" />
               <folding>
-                <element signature="e#0#35#0" expanded="true" />
+                <element signature="e#0#30#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mysite/manage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysite/polls/templates/polls/choice.html">
+        <entry file="file://$PROJECT_DIR$/mysite/polls/templates/polls/result.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+            <state relative-caret-position="170">
+              <caret line="10" column="62" lean-forward="true" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -59,8 +51,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysite/polls/templates/polls/detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="14" selection-start-column="14" selection-end-column="14" />
+            <state relative-caret-position="119">
+              <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysite/polls/templates/polls/choice.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -106,8 +107,10 @@
         <option value="$PROJECT_DIR$/mysite/polls/templates/polls/choice.html" />
         <option value="$PROJECT_DIR$/mysite/polls/urls.py" />
         <option value="$PROJECT_DIR$/mysite/polls/templates/polls/index.html" />
-        <option value="$PROJECT_DIR$/mysite/polls/views.py" />
         <option value="$PROJECT_DIR$/mysite/manage.py" />
+        <option value="$PROJECT_DIR$/mysite/polls/templates/polls/detail.html" />
+        <option value="$PROJECT_DIR$/mysite/polls/templates/polls/result.html" />
+        <option value="$PROJECT_DIR$/mysite/polls/views.py" />
       </list>
     </option>
   </component>
@@ -205,18 +208,27 @@
       <option name="presentableId" value="Default" />
       <updated>1581501925596</updated>
       <workItem from="1581501927040" duration="10813000" />
-      <workItem from="1581598816259" duration="14339000" />
+      <workItem from="1581598816259" duration="18813000" />
+      <workItem from="1581687899931" duration="4293000" />
     </task>
+    <task id="LOCAL-00001" summary="add Comment to manage.py">
+      <created>1581620237411</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581620237411</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25152000" />
+    <option name="totallyTimeSpent" value="33919000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -244,7 +256,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit 1:54" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Commit 1:54" />
+    <MESSAGE value="add Comment to manage.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Comment to manage.py" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/mysite/polls/migrations/__init__.py">
@@ -310,27 +323,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/polls/urls.py">
+    <entry file="file://$PROJECT_DIR$/mysite/manage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mysite/polls/templates/polls/choice.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mysite/polls/templates/polls/detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        <state relative-caret-position="119">
+          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -341,20 +351,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/polls/templates/polls/result.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="62" lean-forward="true" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mysite/polls/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="66" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
+        <state relative-caret-position="442">
+          <caret line="50" column="51" selection-start-line="50" selection-start-column="51" selection-end-line="50" selection-end-column="51" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#0#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/manage.py">
+    <entry file="file://$PROJECT_DIR$/mysite/polls/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        <state relative-caret-position="255">
+          <caret line="15" column="50" lean-forward="true" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
